@@ -1,0 +1,92 @@
+PODS:
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - AMap3DMap (9.5.0):
+    - AMapFoundation (>= 1.8.0)
+  - AMapFoundation (1.8.0)
+  - AMapLocation (2.9.0):
+    - AMapFoundation (>= 1.7.0)
+  - AMapSearch (9.4.5):
+    - AMapFoundation (>= 1.8.0)
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - HappyDNS (1.0.2)
+  - Masonry (1.1.0)
+  - MJRefresh (3.7.5)
+  - Qiniu (8.4.4):
+    - HappyDNS (~> 1.0.2)
+  - SDWebImage (5.12.3):
+    - SDWebImage/Core (= 5.12.3)
+  - SDWebImage/Core (5.12.3)
+  - TZImagePickerController (3.8.3):
+    - TZImagePickerController/Basic (= 3.8.3)
+    - TZImagePickerController/Location (= 3.8.3)
+  - TZImagePickerController/Basic (3.8.3)
+  - TZImagePickerController/Location (3.8.3)
+  - WMZDialog (1.4.99)
+  - YYModel (1.0.4)
+
+DEPENDENCIES:
+  - AFNetworking
+  - AMap3DMap
+  - AMapLocation
+  - AMapSearch
+  - FMDB (~> 2.7.5)
+  - Masonry (~> 1.1.0)
+  - MJRefresh
+  - Qiniu (~> 8.4.1)
+  - SDWebImage
+  - TZImagePickerController
+  - WMZDialog
+  - YYModel
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - AMap3DMap
+    - AMapFoundation
+    - AMapLocation
+    - AMapSearch
+    - FMDB
+    - HappyDNS
+    - Masonry
+    - MJRefresh
+    - Qiniu
+    - SDWebImage
+    - TZImagePickerController
+    - WMZDialog
+    - YYModel
+
+SPEC CHECKSUMS:
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  AMap3DMap: dc972a62d7fe451795e4b3637e377a2cf593d0e7
+  AMapFoundation: f48153f724114b58da9b01875ab88a1f6856e3db
+  AMapLocation: f5eb11e11c62f0f599f80b578eec8a1f70deb985
+  AMapSearch: 72e234d9dbdf021fe30b3079af55641e219711c1
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  HappyDNS: 75eed16b27c6c3abccea34ac349ab7b7e954b25b
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJRefresh: fdf5e979eb406a0341468932d1dfc8b7f9fce961
+  Qiniu: 60ba88dadb712bcf1fb2d5e50c037b073ab7df2a
+  SDWebImage: 53179a2dba77246efa8a9b85f5c5b21f8f43e38f
+  TZImagePickerController: e9909edbadf7381140efc5b5c9f5bdbfd630f7d4
+  WMZDialog: 24cf7cf365b60a566482458a2de67872ccb70b0c
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+
+PODFILE CHECKSUM: f11aed1b636166be215c62e01de37ae2a32118f2
+
+COCOAPODS: 1.11.3

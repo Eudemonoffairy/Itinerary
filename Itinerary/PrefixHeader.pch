@@ -1,0 +1,34 @@
+//
+//  PrefixHeader.pch
+//  Itinerary
+//
+//  Created by Martin Liu on 2023/2/4.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+///  地图规划方案
+#define MAP_ROUTES                          @"maproutes"
+///  获取景点数据
+#define MAP_ATTRATION                       @"mapattration"
+///  显示在地图上
+#define SHOW_IN_MAP                         @"showinmap"
+///  初始加载
+#define FIRST_LOAD                          @"firstload"
+///  是否登录
+#define LOGIN_FLAG                          @"loginflag"
+///  选择景点
+#define SELECT_PLACE                        @"selectplace"
+
+#import <Masonry/Masonry.h>
+#import "KRScreenAdapter.h"
+#import "UIViewController+Dialog.h"
+#import "UIFont+Theme.h"
+#import "UIColor+Theme.h"
+#import <SDWebImage/UIImageView+WebCache.h>
+#import <AFNetworking.h>
+
+#define BASE_URL                            @"http://8.134.115.0:8083"
+#define QINIU_URL                           @"http://rqsoc0osp.hn-bkt.clouddn.com"
+
+#endif /* PrefixHeader_pch */
